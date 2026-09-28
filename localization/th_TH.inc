@@ -1,7 +1,7 @@
 <?php
 $labels = [];
 $labels['plugin_title'] = 'Catch-All Sender';
-$labels['rules_description'] = 'กำหนดค่ากฎแบบแคסקายด์เพื่อสร้างข้อมูลประจำตัวผู้ส่งโดยอัตโนมัติสำหรับที่อยู่ catch-all';
+$labels['rules_description'] = 'กำหนดค่ากฎแบบแคสกายด์เพื่อสร้างข้อมูลประจำตัวผู้ส่งโดยอัตโนมัติสำหรับที่อยู่ catch-all';
 $labels['order'] = 'ลำดับ';
 $labels['rule_mask'] = 'มาสก์ที่อยู่';
 $labels['action'] = 'การดำเนินการ';
@@ -25,7 +25,7 @@ $labels['edit'] = 'แก้ไข';
 $labels['delete'] = 'ลบ';
 $labels['status_allowed'] = 'อนุญาต';
 $labels['status_blocked'] = 'ถูกบล็อก';
-$labels['locked'] = 'ถูกล็อก';
+$labels['locked'] = 'ถูกล็อค';
 $labels['default_rule'] = 'กฎเริ่มต้น';
 $labels['error_empty_mask'] = 'มาสก์ที่อยู่ต้องไม่ว่างเปล่า';
 $labels['confirm_delete'] = 'คุณต้องการลบกฎนี้หรือไม่?';

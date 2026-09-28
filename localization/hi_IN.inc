@@ -29,5 +29,5 @@ $labels['locked'] = 'लॉक किया गया';
 $labels['default_rule'] = 'डिफ़ॉल्ट नियम';
 $labels['error_empty_mask'] = 'पता मास्क खाली नहीं हो सकता।';
 $labels['confirm_delete'] = 'क्या आप इस नियम को हटाना चाहते हैं?';
-$labels['successfullysaved'] = 'नियम successfully सहेजे गए।';
+$labels['successfullysaved'] = 'नियम सफलतापूर्वक सहेजे गए।';
 $labels['errorsaving'] = 'नियम सहेजने में त्रुटि।';
