@@ -2,7 +2,7 @@
     "name": "coyotestudio/catch-all-sender",
     "description": "Auto-creates Roundcube identities using cascading catch-all rules.",
     "type": "roundcube-plugin",
-    "license": "GPL-3.0-or-later",
+    "license": "AGPL-3.0-or-later",
     "authors": [
         {
             "name": "Coyote Studio",
