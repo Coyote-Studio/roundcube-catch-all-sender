@@ -60,7 +60,7 @@ If you manage Roundcube via Docker, you can include it automatically using a cus
 
 ## Localization
 
-This plugin supports multi-language environments out of the box. Translation files are located in the `localization/` directory. If you want to contribute or update translations, ensure your locale `.inc` file matches Roundcube's standard nomenclature alongside the `_index.php` registry.
+This plugin supports multi-language environments out of the box. Translation files are located in the `localization/` directory. If you want to contribute or update translations, ensure your locale `.inc` file matches Roundcube's standard nomenclature.
 
 ---
 
