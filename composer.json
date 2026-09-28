@@ -1,0 +1,16 @@
+{
+    "name": "coyotestudio/catch-all-sender",
+    "description": "Auto-creates Roundcube identities using cascading catch-all rules.",
+    "type": "roundcube-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Coyote Studio",
+            "homepage": "https://coyote.studio"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "roundcube/plugin-installer": ">=0.2.0"
+    }
+}

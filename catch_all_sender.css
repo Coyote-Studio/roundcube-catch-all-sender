@@ -1,0 +1,101 @@
+.catchall-container {
+    padding: 25px;
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.catchall-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.catchall-header h2 {
+    margin: 0;
+}
+
+.catchall-table td {
+    vertical-align: middle;
+}
+
+.catchall-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catchall-modal {
+    background: #fff;
+    color: #212529;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 620px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+html.dark-mode .catchall-modal,
+body.dark-mode .catchall-modal,
+.theme-dark .catchall-modal {
+    background: #2b3035;
+    color: #f8f9fa;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.catchall-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+html.dark-mode .catchall-modal-header,
+body.dark-mode .catchall-modal-header,
+.theme-dark .catchall-modal-header {
+    border-bottom-color: rgba(255,255,255,0.1);
+}
+
+.catchall-modal-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    line-height: 1;
+    color: inherit;
+}
+
+.catchall-modal-body {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.catchall-modal-footer {
+    padding: 16px 20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+html.dark-mode .catchall-modal-footer,
+body.dark-mode .catchall-modal-footer,
+.theme-dark .catchall-modal-footer {
+    border-top-color: rgba(255,255,255,0.1);
+}
