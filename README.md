@@ -6,10 +6,10 @@ A powerful Roundcube webmail plugin that allows users to define catch-all wildca
 
 ## Features
 
-- Wildcard & Catch-All Rules: Create flexible email masks (e.g., `*@coyote.studio`, `sales-*@coyote.studio`) to manage inbound addressing dynamically.
+- Wildcard & Catch-All Rules: Create flexible email masks (e.g., `*@domain.com`, `sales-*@domain.com`) to manage inbound addressing dynamically.
 - Automatic Identity Creation: Automatically detects incoming messages addressed to wildcard patterns and registers them as valid sender identities in Roundcube.
 - Dedicated Settings Interface: A clean, integrated management panel in Roundcube settings to add, edit, delete, and reorder rules.
-- Full Localization Support: Includes localization files for over 40 languages, seamlessly integrated with Roundcube's language switcher.
+- Full Localization Support: Includes localization files for over 84 languages, seamlessly integrated with Roundcube's language switcher.
 - Database Persistence: Directly synchronizes and saves user rules securely into the Roundcube database backend.
 
 ---
