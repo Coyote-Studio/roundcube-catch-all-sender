@@ -66,7 +66,7 @@ This plugin supports multi-language environments out of the box. Translation fil
 
 ## License
 
-This project is licensed under the GNU AGPL V3+ license. See the LICENSE file for details.
+This project is licensed under the GNU AGPLv3 license. See the LICENSE file for details.
 
 ---
 
